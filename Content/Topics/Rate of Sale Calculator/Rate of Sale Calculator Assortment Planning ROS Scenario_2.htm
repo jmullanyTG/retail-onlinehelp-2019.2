@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Rate of Sale Calculator – Assortment Planning ROS Scenario Results</h1>
+        <p>Once scenarios have been calculated, users can review the resulting rates of sale by defined performance bands (set during configuration) as both raw and adjusted (cleansed) values.&#160; The results are grouped into the following performance percentiles (configurable during implementation):  </p>
+        <ul>
+            <li>Minimum</li>
+            <li>25th percentile</li>
+            <li>Median (50th percentile)</li>
+            <li>75th percentile</li>
+            <li>Maximum</li>
+            <li>Average (default selection)</li>
+        </ul>
+        <p class="note" MadCap:autonum="&lt;b&gt;NOTE: &lt;/b&gt;">Average shows the true average rate of sale per variant/period for the selected data, not the average from the configured percentile bands</p>
+        <p>
+            <img src="../../Resources/Images/Rate of Sale Calculator/Rate of Sale Calculator Assortment Planning ROS Scenario_2_1.png" />
+        </p>
+        <p>
+            <img src="../../Resources/Images/Rate of Sale Calculator/ROS Scenario Results section.png" />
+        </p>
+        <ol>
+            <li>Review <b>Raw ROS</b> and <b>Adjusted ROS</b> sales distributions<ol><li>The sales history for the selected items is distributed across a performance percentile&#160; (Worst, 30%, 50%, 70%, Best) (Range is configurable during design)</li><li>Raw ROS = No data cleansing or filtering</li><li>Adjusted ROS = Sales history that has been cleansed by the data cleansing steps outlined previously in this document</li><li>Record Count = the number of data points (style/color sales periods) used in the calculation of the displayed rates of sale – to serve as an indication of relative data strength</li><li>Effective ROS = Is the ROS that will be applied to the list of placeholders/variants in the third and bottom view of the ROS calculator screen.&#160; The Effective ROS can be adjusted by checking the ROS from the Scenario results, or by manually entering a value.&#160; ROS selection is cluster specific and the distribution selection can vary by cluster</li></ol></li>
+        </ol>
+    </body>
+</html>

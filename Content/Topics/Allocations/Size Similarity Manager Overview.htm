@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="4" MadCap:lastHeight="1639" MadCap:lastWidth="1177">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">Size Similarity Manager Overview</h1>
+        <p>It is not uncommon for the same real size to be present in a database under multiple names (for example, size small could be represented as S, SM, SML, etc.). This could be due to issues with the way data imports are set up or even problems with the master data being fed into Demand Management, but whatever the cause, these additional data points can cause unintended dilution when calculating and working with size curves. The Size Similarity Manager was designed to allow users to identify sizes that should be treated together as one, specify a single name under which to unify and display them, and ultimately work with them as a single entity without the need to manually unify the relevant data points.</p>
+        <p>The Size Similarity Manager can be accessed through the Views module – <span style="font-weight: bold;">System Utilities &gt; Views</span>. Select Size Similarity Manager from the Navigation Menu.</p>
+        <p style="page-break-after: avoid;">
+            <img src="../../Resources/Images/Allocation Size/Allocation Size.png" style="visibility: visible;width: 634px;height: 175px;" />
+        </p>
+        <h2>Functionality and fields</h2>
+        <h3>Toolbar</h3>
+        <p>
+            <img src="../../Resources/Images/Allocation Size/Header Area Controls.png" style="visibility: visible;mso-wrap-style: square;width: 43px;height: 20px;border-top-style: solid;border-top-width: 1pt;border-bottom-style: solid;border-bottom-width: 1pt;border-left-style: solid;border-left-width: 1pt;border-right-style: solid;border-right-width: 1pt;">
+            </img><span style="font-weight: bold;color: #000000;">: </span><span style="color: #000000;">adds a new similarity set</span>
+        </p>
+        <p>
+            <img src="../../Resources/Images/Allocation Size/Header Area Controls_1.png" style="visibility: visible;mso-wrap-style: square;width: 52px;height: 19px;border-top-style: solid;border-top-width: 1pt;border-bottom-style: solid;border-bottom-width: 1pt;border-left-style: solid;border-left-width: 1pt;border-right-style: solid;border-right-width: 1pt;">
+            </img><span style="font-weight: bold;color: #000000;">:</span><span style="color: #000000;">deletes the selected similarity set</span>
+        </p>
+        <p><span style="font-weight: bold;font-style: italic;color: #FF0000;">Important:</span><span style="font-style: italic;">this is only a soft delete, thus, deleting a set will not reverse any data migrations that have already been completed – it will, however, </span><span style="font-style: italic;">prevent the set from being used for any future migrations or data imports. Deleting the set will also make any Similar Sizes that were displayed under the Display Size visible throughout Demand Management once more</span>
+        </p>
+        <p>
+            <img src="../../Resources/Images/Allocation Size/Header Area Controls_2.png" style="visibility: visible;mso-wrap-style: square;width: 40px;height: 19px;border-top-style: solid;border-top-width: 1pt;border-bottom-style: solid;border-bottom-width: 1pt;border-left-style: solid;border-left-width: 1pt;border-right-style: solid;border-right-width: 1pt;">
+            </img><span style="font-weight: bold;color: #000000;">:</span><span style="color: #000000;">launches the Fields Customization dialog; used for customizing the fields shown</span><span style="color: #000000;"> and layout of the current view</span>
+        </p>
+        <p>
+            <img src="../../Resources/Images/Allocation Size/Header Area Controls_3.png" style="visibility: visible;mso-wrap-style: square;width: 35px;height: 19px;border-top-style: solid;border-top-width: 1pt;border-bottom-style: solid;border-bottom-width: 1pt;border-left-style: solid;border-left-width: 1pt;border-right-style: solid;border-right-width: 1pt;">
+            </img><span style="font-weight: bold;color: #000000;">:</span><span style="color: #000000;">commits all changes made in the current view since the last Save to the database</span>
+        </p>
+        <p><span style="font-weight: bold;font-style: italic;color: #F79646;">Warning:</span><span style="font-style: italic;">changes cannot be automatically undone with Cancel once Saved</span>
+        </p>
+        <p>
+            <img src="../../Resources/Images/Allocation Size/Header Area Controls_4.png" style="visibility: visible;mso-wrap-style: square;width: 43px;height: 19px;border-top-style: solid;border-top-width: 1pt;border-bottom-style: solid;border-bottom-width: 1pt;border-left-style: solid;border-left-width: 1pt;border-right-style: solid;border-right-width: 1pt;" /><span style="font-weight: bold;color: #000000;">:</span><span style="color: #000000;">undoes all changes made in the current view since the last Save and does not commit them to the database</span><span style="color: #000000;">; this will also restore deleted similarity sets, provided the deletion has not been Saved</span>
+        </p>
+        <h3>Field Descriptions</h3>
+        <ul style="list-style-type: disc;margin-left: 36pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;">Size Similarity ID</span><span style="font-weight: bold;color: #000000;">: </span><span style="color: #000000;">non-editable integer; displays the unique system ID number associated with the similarity </span><span style="color: #000000;">set</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;">Size Similarity Set Name</span><span style="color: #000000;">:</span><span style="color: #000000;"> user editable alpha numeric; displays/sets the name for the similarity set</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;">Size Type</span><span style="color: #000000;">:</span><span style="color: #000000;"> user editable single-select dropdown; displays/sets the size type to define the similarity set for; populated with Size Types defined in the Allocation module</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;">Display Size</span><span style="color: #000000;">:</span><span style="color: #000000;"> user editable single-select dropdown; displays/sets the size name under which all similar sizes in the similarity set will be displayed in Demand Management after migration has occurred; populated with sizes contained in the selected Size Type</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;">Similar Size</span><span style="color: #000000;">:</span><span style="color: #000000;"> user editable multi-select dropdown; displays/sets the sizes to be grouped together in the similarity set; populated with sizes contained in the selected Size Type</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;">Queue For Migration</span><span style="color: #000000;">:</span><span style="color: #000000;"> non-editable checkbox; indicates that changes made to the similarity set have been saved and queued for migration in the next migration script run</span>
+            </li>
+        </ul>
+        <ul style="list-style-type: circle;margin-left: 72pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;font-style: italic;">Note: </span><span style="font-style: italic;">similarity sets that have been queued for migration but which contain sizes that have yet to be migrated will have this cell conditionally formatted </span><span style="font-weight: bold;font-style: italic;color: #FF0000;">red</span>
+            </li>
+        </ul>
+        <ul style="list-style-type: disc;margin-left: 36pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;">Has Migrated</span><span style="color: #000000;">:</span><span style="color: #000000;"> non-editable checkbox; indicates whether or not migration has been completed for the similarity set</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;">Last Migrated Date</span><span style="color: #000000;">:</span><span style="color: #000000;"> non-editable calendar control; displays the date the similarity set was last migrated</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;">Last Migrated User</span><span style="color: #000000;">:</span><span style="color: #000000;"> non-editable single-select dropdown; displays the user who last ran the migration script for the similarity set</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;">Create Date</span><span style="color: #000000;">:</span><span style="color: #000000;"> non-editable calendar control; displays the date the similarity set was created</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;">Create User</span><span style="color: #000000;">:</span><span style="color: #000000;"> non-editable single-select dropdown; displays the user who created the similarity set</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;">Last Modified Date</span><span style="color: #000000;">:</span><span style="color: #000000;">non-editable calendar control; displays the date the </span><span style="color: #000000;">similarity set was last modified</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;">Last Modified User</span><span style="color: #000000;">:</span><span style="color: #000000;">non-editable single-select dropdown; displays the user who last ran the </span><span style="color: #000000;">modified</span><span style="color: #000000;"> the similarity set</span>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="4376" MadCap:lastWidth="1318">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Cluster Site Manager Screen</h1>
+        <p style="font-size: 12pt;">In the Cluster Site Manager screen, users can launch the Cluster Set Management window, calculate and view specific cluster sets in both detail and chart modes, make manual adjustments to site cluster assignments, and arrange multiple cluster sets in the view for easy comparison.</p>
+        <p>Cluster sets the user has chosen to view appear as tabs with the cluster set name just below the toolbar.</p>
+        <p style="font-size: 12pt;">
+            <img src="../../Resources/Images/Cluster Site Manager/Cluster Set view.PNG" />
+        </p>
+        <h2>Cluster Set screen toolbar buttons and header fields</h2>
+        <h3>Toolbar buttons</h3>
+        <p><b>Manage:</b> launches the Cluster Set Management dialog</p>
+        <p><b>Save:</b> saves changes made to the User Cluster and Apply User Value fields since the last Save</p>
+        <p><b>Undo:</b> undoes changes made to the User Cluster and Apply User Value fields since the last Save</p>
+        <p><b>Calculate:</b> calculates the cluster assignments for all stores included in the cluster set (based on the parameters and criteria specified during cluster set configuration) and populates the Cluster field with these assignments.</p>
+        <p><b>Note:</b> You can calculate multiple cluster sets at once from the <a href="Cluster Set Management Window.htm">Cluster Set Management</a> window. From there, just click Allow Multiple and select the desired cluster sets and/or cluster set partitions.</p>
+        <p><b>Configuration:</b> launches the cluster set Configuration dialog</p>
+        <p><b>Refresh:</b> refreshes the current view</p>
+        <h3>Header fields</h3>
+        <p><b>Name:</b> The name of the cluster set being viewed</p>
+        <p><b>Description:</b> The description of the cluster set being viewed</p>
+        <p><b>Cluster Type:</b> The cluster set type. For more information on cluster set types, see <MadCap:xref href="Cluster Set Configuration Screen.htm">Cluster Set Configuration</MadCap:xref>.</p>
+        <p><b>Last Computed:</b> displays the date the cluster set was last calculated</p>
+        <h2>Tab header right-click menu options</h2>
+        <p>Right-clicking a document tab displays the following options:</p>
+        <ul>
+            <li><span style="font-weight: bold;font-size: 12pt;">Close:</span> <span style="font-size: 12pt;">closes the cluster set document you right-clicked</span></li>
+            <li><span style="font-weight: bold;font-size: 12pt;">Close All But This:</span> <span style="font-size: 12pt;">closes all open cluster set documents except the one you right-clicked; only available when multiple documents are open</span></li>
+            <li>
+                <p><span style="font-weight: bold;font-size: 12pt;">Float:</span> <span style="font-size: 12pt;">converts the document tab to a window that can be sized and positioned on the screen (or other screens, in multiple monitor configurations)</span></p>
+                <p><span style="font-weight: bold;font-style: italic;font-size: 12pt;">Note: </span>floating can also be achieve by simply clicking and dragging the document header without right-clicking and selecting . After floating, click the document header and drag the document to the desired location. <span style="font-size: 12pt;">Right click the document header and click </span><span style="font-weight: bold;font-size: 12pt;">Dock as Tabbed Document</span><span style="font-size: 12pt;"> to return the document to its tabbed position</span>. You can also hover over the directional buttons of the positioning reticle that appears while dragging to see possible docked locations for the floated window.</p>
+                <p>
+                    <img src="../../Resources/Images/Cluster Site Manager/Cluster Set Floating Tab.PNG" />
+                </p>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p><span style="font-weight: bold;font-size: 12pt;">New Vertical Tab Group:</span> <span style="font-size: 12pt;">configures all documents currently being viewed vertically side by side; after clicking this option, right click the document header again and select </span><span style="font-weight: bold;font-size: 12pt;">Move to Previous Tab Group</span><span style="font-size: 12pt;"> to return to the last screen configuration</span></p>
+                <p>
+                    <img src="../../Resources/Images/Cluster Site Manager/New Vertical Tab Group.PNG" />
+                </p>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p><span style="font-weight: bold;font-size: 12pt;">New Horizontal Tab Group:</span> <span style="font-size: 12pt;">configures all documents currently being viewed horizontally stacked; after clicking this option, right click the document header again and select </span><span style="font-weight: bold;font-size: 12pt;">Move to Previous Tab Group</span><span style="font-size: 12pt;"> to return to the last screen configuration</span></p>
+                <p>
+                    <img src="../../Resources/Images/Cluster Site Manager/New Horizontal Tab Group.PNG" />
+                </p>
+            </li>
+        </ul>
+        <h2>Detail tab</h2>
+        <p>The Detail tab displays the site codes and descriptions of all stores in the cluster set and their cluster assignments. You can edit cluster assignments.</p>
+        <p>
+            <img src="../../Resources/Images/Cluster Site Manager/Cluster Set screen Detail tab.PNG" />
+        </p>
+        <h3>Tab header fields</h3>
+        <p><b>Name</b>: The site name and number.</p>
+        <p><b>Description</b>: The site description.</p>
+        <p><b>Cluster</b>: The system calculated cluster assignment for the site.</p>
+        <p><b>User Cluster</b>: <span style="font-size: 12pt;">Editable dropdown. Displays/sets the user override cluster assignment for the store. Not required.</span></p>
+        <p><b>Apply User Value</b>: Editable checkbox. Sets whether the system uses User Cluster in place of Cluster as the Effective Cluster or not. Default is checked. </p>
+        <p><b>Effective Cluster</b>: The effective cluster assignment for the store.</p>
+        <h3>Grid options</h3>
+        <p>Grid options include:</p>
+        <p>(The following grid options were introduced with the v2019.2.1 Service Pack.)</p>
+        <p><b>Select All</b>: Selects and highlights all Site records within the Site Cluster Detail grid.</p>
+        <p><b>Deselect All</b>: Deselects and un-highlights all Site records within the Site Cluster Detail grid.</p>
+        <p><b>Select from Clipboard</b>: Selects and highlights all matching Site records in the Site Cluster Detail grid.</p>
+        <p><b>Deselect from Clipboard</b>: Deselects and un-highlights all matching Site records in the Site Cluster Detail grid.</p>
+        <h2>Chart tab</h2>
+        <p>The Chart tab displays all stores in the cluster set as data points against X and Y axes for all Attributes defined in Cluster Set Configuration. </p>
+        <p style="font-size: 12pt;">
+            <img src="../../Resources/Images/Cluster Site Manager/Cluster Set screen Chart tab.PNG" />
+        </p>
+        <ul>
+            <li><span style="font-weight: bold;font-size: 12pt;">X-Axis Attribute:</span> <span style="font-size: 12pt;">user editable dropdown; selects an Attribute from those defined in Cluster Set Configuration to plot on the X (horizontal) axis of the graph</span></li>
+            <li><span style="font-weight: bold;font-size: 12pt;">Y-Axis Attribute:</span> <span style="font-size: 12pt;">user editable dropdown; selects an Attribute from those defined in Cluster Set Configuration to plot on the Y (vertical) axis of the graph</span></li>
+            <li><span style="font-weight: bold;font-size: 12pt;">Legend:</span> <span style="font-size: 12pt;">user editable checkboxes; displays one color-coded chec</span><span style="font-size: 12pt;">kbox per cluster</span><span style="font-size: 12pt;">, corresponding to the colored data points that are assigned to that cluster on the chart; unchecking hides the related data points</span></li>
+            <li>
+                <p><span style="font-weight: bold;font-size: 12pt;">Data Points:</span> colored dots and stars within the chart area; dots correspond to clusters of the same color in the legend, stars represent the centroids (K-Means types) or medoids (K-Medoids types) for the distance calculations used to assign stores to clusters. Aligning the cross hairs on the chart to a specific data point (done simply by moving the cursor on the chart) shows a pop-up of the store associated with that point as well as the specific values associated with the X and Y axes at the left and bottom of the chart, respectively</p>
+                <p>
+                    <img src="../../Resources/Images/Cluster Site Manager/3.6.2 Cluster Site Manager_7.png" style="visibility: visible;width: 634px;height: 317px;" />
+                </p>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p><span style="font-weight: bold;font-size: 12pt;">Show Labels:</span> <span style="font-size: 12pt;">user editable checkbox; toggles the display of data point labels for all points on the chart; defaults to unchecked</span></p>
+                <p>
+                    <img src="../../Resources/Images/Cluster Site Manager/3.6.2 Cluster Site Manager_8.png" style="visibility: visible;width: 634px;height: 330px;" />
+                </p>
+            </li>
+        </ul>
+    </body>
+</html>

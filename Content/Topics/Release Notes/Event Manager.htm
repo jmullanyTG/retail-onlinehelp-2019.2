@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1319" MadCap:lastWidth="1244">
+    <head>
+    </head>
+    <body>
+        <h1>Event Manager</h1>
+        <p>The following enhancements are now available in the Event Manager solution. </p>
+        <h2>Events with a Promotion marked as Private<MadCap:conditionalText MadCap:conditions="General.Online Help"><MadCap:conditionalText MadCap:conditions="General.Exclude from Print,General.Temp Exclude">DMDEV-59751, DMDEV-59748, DMDEV-59747, DMDEV-59745</MadCap:conditionalText></MadCap:conditionalText></h2>
+        <p>Promotions can now be marked as Private, Shared, or Public. This gives Promotion owners the ability to hide and protect sensitive content by marking particular promotions as Private or Shared (with only particular users). A logged in user will be able to view Promotions, in the Event solution, that are marked Public or are shared with the logged in user.</p>
+        <p>A private or unshared Promotion will not be seen in the Available Promotion panes and is masked if used in an Event to hide its specific details as well as to make clear that a Slot is assigned to a Promotion. This masking applies to the Event List, Layout and Version screens but will not affect the Version Report. </p>
+        <p>Promotions that are not shared with the logged in user are masked as follows: </p>
+        <p>
+            <img src="../../Resources/Images/Campaigns and Events/Masked unshared promotion.png" />
+        </p>
+        <h3>Previewing private Promotions owned by another user<MadCap:conditionalText MadCap:conditions="General.Online Help"><MadCap:conditionalText MadCap:conditions="General.Exclude from Print,General.Temp Exclude">DMDEV-61883</MadCap:conditionalText></MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="General.Temp Exclude,General.Exclude from Print,General.Online Help">DMDEV-61761</MadCap:conditionalText></h3>
+        <p>Whether in the Event List or Layout view, previewing a private Promotion owned by another user  is restricted to only those users with whom  the Promotion is shared. The Promotion preview pane masks the details for a private Promotion that has not been shared with a user who double-clicks on the private Promotion.</p>
+        <h3>Restrictions on modifying private Promotions owned by another user</h3>
+        <p>For promotions owned by another user that are private to the logged in user, the logged in user cannot:</p>
+        <ul>
+            <li>delete Event Slot Sets which have at least one Promotion that has not been shared with the logged in user. <MadCap:conditionalText MadCap:conditions="General.Exclude from Print,General.Temp Exclude,General.Online Help">DMDEV-62080</MadCap:conditionalText></li>
+            <li>modify the Slot Set Template as it may cause the private Promotion to be removed from the Slot Set (i.e. page)</li>
+            <li>
+                <p> remove or unassign private Promotions</p>
+                <p><b>NOTE:</b>&#160;For Promotions that are private to the logged in user, the logged in user may still select <b>Remove All</b> on the Promotion menu. However, <b>Remove All</b> will only be applied to Promotions that the logged in user has access to. Promotions that are private to the logged in user are not removed.</p>
+            </li>
+            <li>
+                <p>merge or split Slots with private Promotions or where private Promotions are adjacent and would be affected</p>
+                <p><b>NOTE:</b> In Layout Edit mode, Promotions that are private to the logged in user cannot be split or merged. Promotions that are adjacent to a private Promotion cannot be merged to the private Promotion. </p>
+                <p>For a public Promotion adjacent to a private Promotion, the purple line does not appear when the public Promotion is selected and the public Promotion cannot be merged. Also, logged in users cannot split a Promotion that is private to them.</p>
+            </li>
+        </ul>
+        <h3>Cloning an Event with Promotions <MadCap:conditionalText MadCap:conditions="General.Online Help"><MadCap:conditionalText MadCap:conditions="General.Exclude from Print,General.Temp Exclude">DMDEV-61869</MadCap:conditionalText></MadCap:conditionalText></h3>
+        <p>A Promotion’s privacy options can be retained when cloning an Event that has Promotions to maintain privacy for other vehicle types or time frames. In the Clone Event dialog, select the Include Promotions check box to keep the Promotion Privacy options including the shared list of Users and Roles.</p>
+    </body>
+</html>

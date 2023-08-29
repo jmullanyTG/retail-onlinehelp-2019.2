@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="5109" MadCap:lastWidth="1256">
+    <head>
+        <link href="../../Resources/TableStyles/jeTables.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+    </head>
+    <body>
+        <h1>List</h1>
+        <p>The Slot Set List view displays the Slots in the selected Slot Set as rows in a grid. Access to this screen depends on the user’s rights.</p>
+        <p>
+            <img src="../../Resources/Images/Campaigns and Events/List_1.png" style="visibility: visible;mso-wrap-style: square;width: 624px;height: 200px;" />
+        </p>
+        <p>For each Slot, the attributes are displayed as columns. </p>
+        <p>Every Slot Set has a Position 0 Slot. This is where all unadvertised Promotions will be located for the Slot Set. Position 0 does not have an associated Item Display Format, Space, and the Status is ‘Unassigned’.</p>
+        <h2>Private Promotions</h2>
+        <p>If the logged in user selects a Promotion that has not been shared with them, then:</p>
+        <ul>
+            <li>the Promotion name in <b>Assigned Promotion</b> displays as Private.</li>
+            <li>All fields except <b>Item Display Format</b> and <b>Space</b> are masked.</li>
+            <li>the ability to modify <b>Item Display Format</b> and <b>Space</b> is disabled.</li>
+        </ul>
+        <h2>Displaying the View/Edit Promotion screen</h2>
+        <p>To preview a particular slot, double-click on a row in the grid to display the Promotion preview screen.</p>
+        <h2>Previewing a Promotion</h2>
+        <p>Selecting a slot in the grid refreshes the Slot Preview Pane (located to the right of the Promotion pane that displays the Promotions available to be added to the Event).  If the Promotion has been shared with the logged in user (the Promotion’s privacy option is Public or Shared with the logged in user), the Promotion preview dialog will be displayed, but is read-only.</p>
+        <h3>Previewing private Promotions</h3>
+        <p>The Promotion preview pane is masked and displays the following graphic if the logged in user double-clicks a slot with a Promotion that has not been shared with them.</p>
+        <p>
+            <img src="../../Resources/Images/Campaigns and Events/Event Version Masked Promotion.PNG" />
+        </p>
+        <h2> Selecting Geographies and available Promotions</h2>
+        <p>Selecting a Slot in the grid, will refresh the Geography and Available Promotions panes below the grid. </p>
+        <p>
+            <img src="../../Resources/Images/Campaigns and Events/List_1_1.png" style="visibility: visible;mso-wrap-style: square;width: 576px;height: 239px;" />
+        </p>
+        <h3>Geography pane</h3>
+        <p>The Geography pane indicates which Geographies will be automatically assigned to the Promotion when it is added to the Slot. If the logged in user selects a Promotion that has not been shared with them (the Promotion is private to other users), then the <b>Assign</b> button is disabled.</p>
+        <h3>Available Promotions pane</h3>
+        <p>The available Promotions pane indicates which Promotions are available to add to the Slot. A Promotion with a check mark indicates that it has been added to the Slot Set but not necessarily to the selected Slot. If a Promotion is assigned to the selected Slot, it will be the only one displayed in the Promotions pane.</p>
+        <p>The Available Promotions pane displays Promotions with Sales Dates that overlap the Event Sale Dates. There are several buttons available above the Promotions pane:</p>
+        <p>
+            <img src="../../Resources/Images/Campaigns and Events/Available Promotions pane.png" style="visibility: visible;mso-wrap-style: square;width: 480px;height: 25px;" />
+        </p>
+        <p><b>NOTES:</b>&#160;The available Promotions pane:</p>
+        <ul>
+            <li>
+                <p>does not display Promotions that have been designated Private.</p>
+                <p>Promotions that have not been shared with the logged in user (the Promotion is private to other users) do not display in the Available Promotions pane though they do display as Private Promotions in the Slot Set List view to denote the Slot has been populated.</p>
+            </li>
+            <li>displays Promotions designated as Public.</li>
+            <li>displays Promotions that have been shared with the logged in user or the role the logged in user belongs to.</li>
+            <li>displays Promotions that are Private to the logged in user.</li>
+        </ul>
+        <p>Depending on the Global Policy <b>Promotion Double Click Action</b> setting, double clicking on an assigned Promotion in the grid will load the Promotion in either a window or in the Promotions solution.</p>
+        <h2>Promotions menu</h2>
+        <p>The following functionality is available in the Promotions menu on the toolbar:</p>
+        <table style="width: 100%;margin-left: auto;margin-right: auto;mc-table-style: url('../../Resources/TableStyles/jeTables.css');" class="TableStyle-jeTables" cellspacing="0">
+            <col class="TableStyle-jeTables-Column-Column1" />
+            <col class="TableStyle-jeTables-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-jeTables-Head-Header1">
+                    <th class="TableStyle-jeTables-HeadE-Column1-Header1">&#160;</th>
+                    <th class="TableStyle-jeTables-HeadD-Column1-Header1">&#160;</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body1" colspan="2">
+                        <p colspan="2">The following functionality is disabled when a Promotion with a privacy option of Private is selected.</p>
+                        <p colspan="2"><b>NOTE:</b> <b>Remove All</b> will only be applied to Promotions that the logged in user has access to. Promotion’s that are private to the logged in user are not removed. For example, if all the Promotions are shared except for the Promotion in slot 6, then all the Promotions are removed except for the private Promotion in slot 6. </p>
+                        <p colspan="2">
+                            <img src="../../Resources/Images/Campaigns and Events/Buttons_Promotion.png" />
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body2">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body2">
+                        <p>Promotion: New</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body2">
+                        <p>If a Slot, has one or more Geographies available and the user has the appropriate Workflow permissions and rights, the ability to create a new Promotion is available. Clicking on <span style="font-weight: bold;">New</span> will open the New Promotion Wizard window. Enter the required fields and click <span style="font-weight: bold;">Save and Close</span>. For more information, see <a href="Create a new Promotion.htm">Create a New Promotion.</a></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body1">
+                        <p>Promotion: Remove</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body1">
+                        <p>If a Promotion is selected in the Slot Set, the <span style="font-weight: bold;">Remove</span> button is available. Click on this button to remove the selected Promotion from the Slot. This will only remove the selected Promotion. Any other Promotions will still be associated with the Slot. A different Promotion may be added to the newly open Geographies in the Slot.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body2">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body2">
+                        <p>Promotion: Remove All</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body2">
+                        <p>If a Promotion is selected in the Slot Set, the <span style="font-weight: bold;">Remove All</span> button is available. Click on this button to remove all Promotions from the Slot. The Slot is considered open after this action.</p>
+                        <p><b>NOTE:</b>&#160;Promotions that are private to the logged in user are not removed and, therefore, the Slot is not open. </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body1">
+                        <p>Promotion: Unassign</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body1">
+                        <p>If a Promotion is selected in the Slot Set, the <span style="font-weight: bold;">Unassign</span> button is available. Click on this button to move the Promotion from an assigned Slot to the Unassigned Position 0. The Promotion will move to Slot 0 and still be associated with the Slot Set.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body2">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body2">
+                        <p>View</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body2">
+                        <p>If a Promotion is selected in the Slot Set, the <span style="font-weight: bold;">View</span> button is available. Click on this button to view the Promotion in Promotion Manager. If the user has the appropriate rights, modifications can be made to Promotion and saved. Changes will be reflected in the Event after the Slot Set is refreshed.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyB-Column1-Body1">
+                        <p>Content</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyA-Column1-Body1">
+                        <p>For any Promotion in an Event, it is possible to modify the Content and Images associated with it using the Content Editor. For more information, see <a href="Content Editor.htm">Content Editor</a>.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Slot Set grid columns</h2>
+        <table class="TableStyle-jeTables" cellspacing="0" style="mc-table-style: url('../../Resources/TableStyles/jeTables.css');">
+            <thead>
+                <tr class="TableStyle-jeTables-Head-Header1">
+                    <th class="TableStyle-jeTables-HeadE-Column1-Header1">
+                        <p style="font-weight: bold;">Field</p>
+                    </th>
+                    <th class="TableStyle-jeTables-HeadD-Column1-Header1">
+                        <p style="font-weight: bold;">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body1">
+                        <p>Slot Number (Read Only)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body1">
+                        <p>The Position of the Slot in the Slot Set.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body2">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body2">
+                        <p>Assigned Promotion (Read Only)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body2">
+                        <p>If a Promotion has been added to the Slot, the Promotion Name will be displayed.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body1">
+                        <p>Content Version (Read Only)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body1">
+                        <p>If a Promotion has been added to the Slot and more than one Content Version exists for it, each Content Version will have its own row in the grid. The Content Version Name will be displayed in this column.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body2">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body2">
+                        <p>Item Display Format (<span style="color: #0070C0;">Optional</span>)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body2">
+                        <p>The Item Display Format to be used across all Promotions in the Slot. Clicking on this field displays a dropdown list populated with the available Item Display Formats. The available Item Display Formats are filtered to be within corporate compliance to ensure consistent messaging to customers via the Slot Set Template Configuration screen.</p>
+                        <p><b>NOTE:</b> If an Item Display Format is assigned that is no longer applicable to the Slot Set Template the option will remain until it has been substituted with a different Item Display Format. The invalid Item Display Format will be no longer available once another Item Display Format has been selected and saved.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body1">
+                        <p>Space (<span style="color: #0070C0;">Optional</span>)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body1">
+                        <p>Indicates the Space assignment for the Slot. This may be modified by selecting a new Space from the dropdown list. Changing the Space assignment may affect user permissions to the Slot.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body2">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body2">
+                        <p>Status (Read Only)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body2">
+                        <p>If a Promotion has been added to the Slot, the Status is ‘Assigned’, otherwise it is ‘Open’. It is possible for a Slot to have Statuses of ‘Assigned’ and ‘Opened’ if not all of the available Geographies are assigned a Promotion.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body1">
+                        <p>Notes (<span style="color: #0070C0;">Optional</span>)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body1">
+                        <p>Enter instructions or additional information related to the treatment of the assigned Promotion directly into the grid. This is not editable if the Slot is ‘Open’.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body2">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body2">
+                        <p>Start Date (Read Only)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body2">
+                        <p>Displays the Promotion Start Date.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyB-Column1-Body1">
+                        <p>End Date (Read Only)</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyA-Column1-Body1">
+                        <p>Displays the Promotion End Date.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Promotion pane</h2>
+        <p>The following table describes the functionality in the available Promotions pane:</p>
+        <table class="TableStyle-jeTables" cellspacing="0" style="mc-table-style: url('../../Resources/TableStyles/jeTables.css');">
+            <thead>
+                <tr class="TableStyle-jeTables-Head-Header1">
+                    <th class="TableStyle-jeTables-HeadE-Column1-Header1">
+                        <p style="font-weight: bold;">Action</p>
+                    </th>
+                    <th class="TableStyle-jeTables-HeadD-Column1-Header1">
+                        <p style="font-weight: bold;">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body1">
+                        <p>Add to Event</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body1">
+                        <p>Clicking this button will assign the selected Promotion to the selected open Slot in the current Slot Set. Access to this button may be restricted depending on the user’s permissions and the Slot’s Space assignment.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body2">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body2">
+                        <p>View</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body2">
+                        <p>Selecting this button will open the selected Promotion in the Promotions solution.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body1">
+                        <p>Filter</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body1">
+                        <p>Filter can be used to limit which Promotions are displayed in the pane. By default all Promotions with dates that overlap with the Event Sale dates are displayed. To limit Promotions, select from the dropdown list of existing Promotion Filters. If an appropriate Filter does not exist click on the black hammer icon to create a new Filter that will better match the list of Promotions to display in the pane. Once the appropriate Filter is selected, click <span style="font-weight: bold;">Ok</span>.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body2">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body2">
+                        <p>Unassigned</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body2">
+                        <p>If the Slot Set contains any Promotions that are associated with the Slot Set but unassigned to a visible Slot, they are considered unassigned. All unassigned Promotions are considered to belong to Slot 0. To view only unassigned Promotions, click <span style="font-weight: bold;">Unassigned</span> to filter the Promotions pane to display only these associated Promotions.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body1">
+                    <td class="TableStyle-jeTables-BodyE-Column1-Body1">
+                        <p>Bids</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyD-Column1-Body1">
+                        <p>Selecting <span style="font-weight: bold;">Bids</span> refreshes the pane and displays only Promotions that have a Bid for the current Event Slot Set.</p>
+                        <p>
+                            <img src="../../Resources/Images/Campaigns and Events/Available Promotions pane_1.png" style="visibility: visible;mso-wrap-style: square;width: 433px;height: 60px;" />
+                        </p>
+                        <p>The system will display the following Bid information is displayed for each Promotion to assist with planning the Event and each Slot Sets:</p>
+                        <ul style="list-style-type: disc;margin-left: 36pt;">
+                            <li class="ListParagraph" style="list-style-type: disc;"><span style="font-weight: bold;">Bid Comments</span> – Comments providing additional information to support decision making for the Bid.</li>
+                            <li class="ListParagraph" style="list-style-type: disc;"><span style="font-weight: bold;">Vendor Supported</span> – Indicates if the Bid is supported by the vendor.</li>
+                            <li class="ListParagraph" style="list-style-type: disc;"><span style="font-weight: bold;">Bid Status</span> – The Bid Status of ‘Submitted’, ‘Resubmitted’, ‘Cancelled’, ‘Accepted’, ‘Rejected’, or ‘Revision Requested’ will be indicated.</li>
+                            <li class="ListParagraph" style="list-style-type: disc;"><span style="font-weight: bold;">Financial Forecast</span> – The projected financial sales for the Bid.</li>
+                            <li class="ListParagraph" style="list-style-type: disc;"><span style="font-weight: bold;">Unit Forecast</span> – The projected unit sales for the Bid.</li>
+                        </ul>
+                        <p>Selecting <span style="font-weight: bold;">Edit Bid</span> will open the Bid Details in a window.</p>
+                        <p>
+                            <img src="../../Resources/Images/Campaigns and Events/Available Promotions pane_2.png" style="visibility: visible;mso-wrap-style: square;width: 336px;height: 246px;" />
+                        </p>
+                        <p>It is possible to change the Bid Status by selecting one of the following options in the Bid Action dropdown list:</p>
+                        <ul style="list-style-type: disc;margin-left: 36pt;">
+                            <li class="ListParagraph" style="list-style-type: disc;"><span style="font-weight: bold;">Accepted</span> – Indicates that the Bid has been accepted. The Promotion should be placed on the Slot Set if this action is taken.</li>
+                            <li class="ListParagraph" style="list-style-type: disc;"><span style="font-weight: bold;">Rejected</span> – Indicates that the Bid has been rejected. If desired, enter Comments as well explaining why the Bid was rejected.</li>
+                            <li class="ListParagraph" style="list-style-type: disc;"><span style="font-weight: bold;">Revision Requested</span> – Indicates that the Bid requires further information before a decision can be made. Include an explanation of the revisions requested in the Comments field.</li>
+                        </ul>
+                        <p>Enter Comments to provide any further information on the Bid Action taken.</p>
+                        <p>After making any necessary changes, click <span style="font-weight: bold;">Ok</span> to save the updated Bid.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-jeTables-Body-Body2">
+                    <td class="TableStyle-jeTables-BodyB-Column1-Body2">
+                        <p>Version Prompt</p>
+                    </td>
+                    <td class="TableStyle-jeTables-BodyA-Column1-Body2">
+                        <p>The user can toggle <span style="font-weight: bold;">Version Prompt</span>. When activated, the user is prompted to select which Geography to associate with the Promotion, every time the user clicks <span style="font-weight: bold;">Add to Event</span>. For more information, see <a href="Slot versioning by Geography.htm">Slot Versioning by Geography</a>.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1><a name="Snapshot"></a>Creating Snapshots</h1>
+        <p>Snapshots serve as the third main concept of plans and can be managed in the Financial Plan Maintenance view.&#160; Snapshots are locked down versions of master or branch plans.&#160; The main differences between a snapshot and any other plan is they do not actualize as we move forward in time.&#160; Snapshots can be accessed on the right hand side of view and will be specific to the master or branch plan highlighted on the left hand side of the view.&#160; To access the snapshot functionality the user will click on the snapshots tab on the left hand side of the view.</p>
+        <p>
+            <img src="../../Resources/Images/MFP 523/Essential Business Concepts_27.png" style="visibility: visible;width: 634px;height: 329px;">
+            </img>
+        </p>
+        <p style="margin-bottom: 0pt;margin-left: 18pt;"><span style="font-weight: bold;color: #000000;">Snapshots Tab:&#160; </span><span style="color: #000000;">Launches the Manage Snapshots dialog - this is used to set up plan snapshots which occur on a regular schedule as well as to create and delete snapshots manually.&#160; Snapshots are, as their name implies, captures of the state the current plan at the time they are generated for the purpose of future comparisons as users work with the plan. Snapshots can be used within the main planning view, the comp/non-comp tab and the sales by type tab within Merchandise Financial planning; for details on the metrics included in snapshots, see Comparison metrics listed in under the respective sections for these supporting views.&#160; There are two main components that make up the Snapshots tab.&#160; The top portion of the view is the MFP Snapshot Templates.</span>
+        </p>
+        <p style="margin-bottom: 0pt; margin-left: 18pt;">
+            <img src="../../Resources/Images/MFP 523/Essential Business Concepts_28.png" style="visibility: visible;width: 575px;height: 263px;">
+            </img>
+        </p>
+        <ul style="list-style-type: circle;margin-left: 72pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">MFP&#160;Snapshot Templates:</span><span style="color: #000000;"> list of all snapshot templates for the current plan, which the current user has access to view; used to create recurring snapshots of the current plan.</span>
+            </li>
+            <li style="margin-bottom: 0pt;">Actions:</li>
+        </ul>
+        <ul style="list-style-type: square;margin-left: 108pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">New:</span><span style="color: #000000;"> adds a new snapshot template line</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Delete:</span><span style="color: #000000;"> deletes the currently selected snapshot template(s) from the plan</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Fields:</span><span style="color: #000000;"> opens the fields Customization dialog; users can drag fields to/from the snapshot templates column header area and this dialog to customize the view</span>
+            </li>
+        </ul>
+        <ul style="list-style-type: disc;margin-left: 144pt;">
+            <li style="margin-bottom: 0pt;color: #000000;">Custom layouts can be saved/restored by right-clicking in the Snapshot Templates area and selecting Save Layout or Restore Layout, respectively</li>
+        </ul>
+        <ul style="list-style-type: square;margin-left: 108pt;">
+            <li>
+                <p style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Save</span>:<span style="font-weight: bold;color: #000000;"><span style="color: #000000;font-weight: normal;"> applies user changes made to snapshot templates and saves newly created templates since the last save</span></span></p>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Cancel:</span><span style="color: #000000;"> cancels user changes made to snapshot templates and removes templates created since last save</span>
+            </li>
+        </ul>
+        <ul style="list-style-type: circle;margin-left: 72pt;">
+            <li style="margin-bottom: 0pt;">Fields:</li>
+        </ul>
+        <ul style="list-style-type: square;margin-left: 108pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Name:</span><span style="color: #000000;"> user editable alpha numeric; name for the snapshot template</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Description:</span><span style="color: #000000;"> user editable alpha numeric; description for the snapshot template</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><b>Created Date</b>: <span>the date on which the template was created.</span></li>
+            <li style="margin-bottom: 0pt;"><b>Created By</b>: <span>the user who created this template.</span></li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Remove By Days:</span><span style="color: #000000;"> user editable positive integer; number of days from the generation of snapshots created by a template after which the system will automatically delete them; used for maintenance purposes</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Snapshot Start Days:</span><span style="color: #000000;"> user editable positive integer; number of days backward from the date a snapshot is generated to be captured</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Snapshot End Days:</span><span style="color: #000000;"> user editable positive integer; number of days forward from the date a snapshot is generated to be captured</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Product Level:</span><span style="color: #000000;"> user editable dropdown; selection of a product hierarchy level to include in snapshots generated by the template; available choices based on the assigned product hierarchy for the current plan</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Channel Level:</span><span style="color: #000000;"> user editable dropdown; selection of a location hierarchy level to include in snapshots generated by the template; available choices based on the assigned location hierarchy for the current plan</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Schedule:</span><span style="color: #000000;"> The schedule to use for determining the frequency and timing of snapshots generated by the template. Schedules must be created in the <a href="../Schedules/Schedules Overview.htm">Schedules</a> module to appear in this list.</span>
+            </li>
+        </ul>
+        <ul style="list-style-type: square;margin-left: 108pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Snapshot Access:</span><span style="color: #000000;"> user editable dropdown; sets user access to snapshots generated by the template; public, private, or shared</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Snapshot Users:</span><span style="color: #000000;"> user editable multi-select; if Snapshot Access is Shared, allows selection of specific users to have access to snapshots generated by the template</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Template Access:</span><span style="color: #000000;"> user editable dropdown; sets user access to the template; public, private, or shared</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Template Users:</span><span style="color: #000000;"> user editable multi-select; if Template Access is Shared, allows selection of specific users to have access to the template</span>
+            </li>
+        </ul>
+        <p style="margin-bottom: 0pt;margin-left: 18pt;color: #000000;">The bottom portion of the view is the MFP Snapshots</p>
+        <p style="margin-bottom: 0pt; margin-left: 18pt; color: #000000;">
+            <img src="../../Resources/Images/MFP 523/Essential Business Concepts_29.png" style="visibility: visible;width: 561px;height: 251px;">
+            </img>
+            <br>
+            </br>
+        </p>
+        <ul style="list-style-type: circle;margin-left: 72pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Snapshots:</span><span style="color: #000000;"> list of all snapshots for the current plan, whether created manually or by a template, which the current user has access to view</span>
+            </li>
+            <li style="margin-bottom: 0pt;">Actions</li>
+        </ul>
+        <ul style="list-style-type: square;margin-left: 108pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">New:</span><span style="color: #000000;"> adds a new snapshot line to the list</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Delete:</span><span style="color: #000000;"> deletes the selected snapshot(s) from the plan</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Fields:</span><span style="color: #000000;"> opens the fields Customization dialog; users can drag fields to/from the snapshots column header area and this dialog to customize the view</span>
+            </li>
+        </ul>
+        <ul style="list-style-type: disc;margin-left: 144pt;">
+            <li style="margin-bottom: 0pt;color: #000000;">Custom layouts can be saved/restored by right-clicking in the Snapshots area and selecting Save Layout or Restore Layout, respectively</li>
+        </ul>
+        <ul style="list-style-type: square;margin-left: 108pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Save: </span><span style="color: #000000;">saves user changes made to snapshots and generates newly created snapshots since the last save</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Cancel:</span><span style="color: #000000;"> cancels user changes made to snapshots and removes snapshots created since last save</span>
+            </li>
+        </ul>
+        <ul style="list-style-type: circle;margin-left: 72pt;">
+            <li style="margin-bottom: 0pt;">Fields:</li>
+        </ul>
+        <ul style="list-style-type: square;margin-left: 108pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Start Date:</span><span style="color: #000000;"> non-editable calendar control; sets the start date for the snapshot window of time</span>
+            </li>
+        </ul>
+        <ul style="list-style-type: disc;margin-left: 144pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;font-style: italic;color: #000000;">Notes: </span><span style="font-style: italic;color: #000000;">must be set before End Date; field locks after snapshot is generated</span>
+            </li>
+        </ul>
+        <ul style="list-style-type: square;margin-left: 108pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">End date:</span><span style="color: #000000;"> non-editable calendar control; sets the end date for the snapshot window of time</span>
+            </li>
+        </ul>
+        <ul style="list-style-type: disc;margin-left: 144pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;font-style: italic;color: #000000;">Notes: </span><span style="font-style: italic;color: #000000;">must be set after Start Date; field locks after snapshot is generated</span>
+            </li>
+        </ul>
+        <ul style="list-style-type: square;margin-left: 108pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Remove By Date: </span><span style="color: #000000;">user editable calendar control; sets the date on which the system will automatically delete the snapshot; used for maintenance purposes</span>
+            </li>
+        </ul>
+        <ul style="list-style-type: disc;margin-left: 144pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;font-style: italic;color: #000000;">Note: </span><span style="font-style: italic;color: #000000;">must be set after the current date</span>
+            </li>
+        </ul>
+        <ul style="list-style-type: square;margin-left: 108pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Product Level:</span><span style="color: #000000;"> non-editable dropdown; selection of a product hierarchy level to include in the snapshot; available choices based on the assigned product hierarchy for the current plan</span>
+            </li>
+        </ul>
+        <ul style="list-style-type: disc;margin-left: 144pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;font-style: italic;color: #000000;">Note: </span><span style="font-style: italic;color: #000000;">field locks after snapshot is generated</span>
+            </li>
+        </ul>
+        <ul style="list-style-type: square;margin-left: 108pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Channel Level:</span><span style="color: #000000;"> non-editable dropdown; selection of a location hierarchy level to include in the snapshot; available choices based on the assigned location hierarchy for the current plan</span>
+            </li>
+        </ul>
+        <ul style="list-style-type: disc;margin-left: 144pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;font-style: italic;color: #000000;">Note: </span><span style="font-style: italic;color: #000000;">field locks after snapshot is generated</span>
+            </li>
+        </ul>
+        <ul style="list-style-type: square;margin-left: 108pt;">
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Access Level:</span><span style="color: #000000;"> user editable dropdown; sets user access to the snapshot; public, private, or shared</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Access Users:</span><span style="color: #000000;"> user editable multi-select; if Snapshot Access is Shared, allows selection of specific users to have access to the snapshot</span>
+            </li>
+            <li style="margin-bottom: 0pt;"><span style="font-weight: bold;color: #000000;">Created From Template:</span><span style="color: #000000;"> read-only alpha-numeric; name of the template the snapshot was generated from; NULL if manually generated</span>
+            </li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1111" MadCap:lastWidth="1140">
+    <head>
+    </head>
+    <body>
+        <h1>Breaking Changes</h1>
+        <h2>Assortment Planning <MadCap:conditionalText MadCap:conditions="General.Temp Exclude,General.Exclude from Print">DMDEV-56319</MadCap:conditionalText></h2>
+        <p>On Order is now cached and updated asynchronously. Note the following: </p>
+        <ul>
+            <li>Customization referencing any of the following changed objects needs to be updated to reflect the new paradigm:<ul><li><p>assortment.Engine_ReadXML</p></li><li><p>assortment.LineViz_Placeholder_Select</p></li><li><p>assortment.LineViz_PlaceholderCollection_Select</p></li><li><p>assortment.LineViz_PlaceholderInstance_EOPBOP_Calculate</p></li><li><p>assortment.LineViz_View_Cluster_Select</p></li><li><p>assortment.Maintenance_Actualize</p></li><li><p>assortment.Maintenance_SalesPlan_Recalculate</p></li><li><p>assortment.Maintenance_StockOnHand_Actualize</p></li><li><p>assortment.ReceiptPlan_UpdatePost</p></li><li><p>assortment.Report_BuySheet_Select</p></li><li><p>assortment.Report_Rollup_Select</p></li><li><p>assortment.SalesReceiptPlan_Select</p></li></ul></li>
+            <li>The procedure assortment.SplitOutstandingQuantity_Update is deprecated; all references in customization should be removed.</li>
+            <li>Customization inserting, updating, or deleting on tbl_SupplierOrderLine, tbl_SupplierOrderLineVariant, and orderamanger.Order_Line_Commitment_Variant needs to be updated to call the pubsub.Publish procedure, examples of which can be found in <ul><li>assortment.Commitment_Generate</li><li>dbo.usp_API_Import_SupplierOrder_Line_Variant_Post</li><li>dbo.usp_API_Import_SupplierOrder_Line_Post_ByPartition</li></ul></li>
+            <li>The receipts line shown in Receipt Plan used to be inclusive of order information, but now it is additive.</li>
+        </ul>
+        <h2>Merchandise Financial Planning <MadCap:conditionalText MadCap:conditions="General.Exclude from Print,General.Temp Exclude">DMDEV-59298</MadCap:conditionalText></h2>
+        <p>There is a new parameter in the CUSP hooks called <b>Currency Neutralization</b>. Any customized stored procedures for InitialSelect will need to be modified to be functional.</p>
+        <h2>Price Manager</h2>
+        <p>A new nightly job labeled <b>Pricing Plan and Action Cleanup</b> cleans up historical Pricing Plans and Actions to maintain database growth. This new nightly job needs to be configured to the customer data retention policies.</p>
+    </body>
+</html>

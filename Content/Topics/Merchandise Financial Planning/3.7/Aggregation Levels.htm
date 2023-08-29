@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1><a name="Agg"></a>Aggregation Levels</h1>
+        <p>In order to provide a more fluid user experience, the Parameters pane includes product and channel aggregation levels. Data for the selected portions of the product and site hierarchies will be pre-aggregated to these levels in temporary database tables, thus reducing the total number of rows that must be read/written and improving overall system performance.</p>
+        <p>
+            <img src="../../../Resources/Images/MFP 529/Essential Business Concepts.png" style="visibility: visible;width: 634px;height: 95px;">
+            </img>
+        </p>
+        <p class="ListParagraph">Aggregation levels can be changed at any time without consequence to the work users have done. Data will simply be re-aggregated/disaggregated. Note, however, that actual values are always stored at the lowest plan levels in the database, regardless of what levels you are currently aggregated to. Changes made at higher levels are simply broken down by percent contribution of the previous values.</p>
+        <ul style="list-style-type: disc;margin-left: 36pt;">
+            <li class="ListParagraph" style="list-style-type: disc;">
+                <p><span style="font-weight: bold;font-style: italic;color: #0070C0;">Example:</span><span style="font-style: italic;">based on the aggregation level selected, the user will see values for that level as well as those above. In the chart below, if the user selects Total Company as the Channel Agg Level, the system will only display a single section for Vandelay Industries and $22,500.00 in sales, but if the user selected Channel as the Channel Agg Level, the system would display separate sub-sections for Retail, Outlet, and Ecomm, within the country sections for US and UK and also a grand total section for Vandelay Industries.</span>
+                </p>
+                <p>
+                    <img src="../../../Resources/Images/MFP 529/Essential Business Concepts_1.png" style="visibility: visible;mso-wrap-style: square;width: 502px;height: 241px;" />
+                </p>
+            </li>
+        </ul>
+    </body>
+</html>

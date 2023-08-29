@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="5" MadCap:lastHeight="451" MadCap:lastWidth="1357">
+    <head>
+        <link href="../../Resources/Stylesheets/standard.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+      
+    </head>
+    <body>
+        <h1><a name="_Demand_Transfer_Configuration"></a>Demand Transfer Configuration</h1>
+        <p>To include demand transfers in an item’s replenishment strategy, perform the following configuration tasks:</p>
+        <table style="width: 100%;mc-table-style: url('../../Resources/Stylesheets/standard.css');" class="TableStyle-Standard" cellspacing="0">
+            <col style="width: 146px;" class="TableStyle-Standard-Column-Column1" />
+            <col class="TableStyle-Standard-Column-Column2" />
+            <tbody>
+                <tr class="TableStyle-Standard-Body-shaded" MadCap:pattern="4">
+                    <td class="TableStyle-Standard-BodyE-Column1-shaded">Module</td>
+                    <td class="TableStyle-Standard-BodyD-Column2-shaded">Task</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-shaded">
+                    <td class="TableStyle-Standard-BodyE-Column1-shaded"><b>Inventory Manager</b>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column2-shaded">Select the <a href="Setting the Consider Demand.htm#_Setting_the_Consider"><span class="Hyperlink">Consider Demand Transference</span></a> option for the item.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-Body1">
+                    <td class="TableStyle-Standard-BodyE-Column1-Body1"><b>Job Manager</b>
+                    </td>
+                    <td class="TableStyle-Standard-BodyD-Column2-Body1">Ensure the (DF) Calculate Fulfillment Split Factor task is added to <a href="../Workload Queue Manager/Standardized Jobs.htm">daily/weekly jobs</a>. This task must run after DF tasks but before RP tasks.</td>
+                </tr>
+                <tr class="TableStyle-Standard-Body-shaded">
+                    <td class="TableStyle-Standard-BodyB-Column1-shaded"><b>Inventory Policy</b>
+                    </td>
+                    <td class="TableStyle-Standard-BodyA-Column2-shaded">If the item is sold at a showroom, configure the showroom <a href="Configuring Demand Transference for Showroom Items.htm">Demand Transference</a> options for the item's related inventory policy.</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Once configured, demand transfers will be included in order recommendations run by the Demand Management replenishment engine. </p>
+        <p>After orders have been generated, you can see the split factors for an item-site combination from the <a href="Forecast Fulfillment Split Factors.htm">Forecast Fulfillment Split Factors</a> tab in the Item Manager's Detail pane.</p>
+    </body>
+</html>

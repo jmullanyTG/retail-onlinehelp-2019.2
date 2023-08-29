@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="4" MadCap:lastHeight="582" MadCap:lastWidth="1209">
+    <head><title></title>
+        <link href="" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h2>Cell Lock Example</h2>
+        <p style="margin-bottom: 0pt;">The simplest locking scenario is when we lock a single period of sales to keep its sales values intact when changes are made at aggregate levels above it</p>
+        <p style="margin-bottom: 0pt;">
+            <img src="../../Resources/Images/MFP/Low Level Locks.png" style="visibility: visible;width: 634px;height: 198px;" />
+        </p>
+        <p style="margin-bottom: 0pt;margin-left: 36pt;"><span style="font-style: italic;color: #000000;">In the above example, Sales has been locked for 2017_wk32, also locking Sales Units and AUR</span><span style="font-style: italic;color: #000000;"> in the view</span>
+        </p>
+        <p style="margin-bottom: 0pt;">
+            <img src="../../Resources/Images/MFP/Low Level Locks_1.png" style="visibility: visible;width: 634px;height: 197px;" />
+        </p>
+        <p style="margin-bottom: 0pt;margin-left: 36pt;"><span style="font-style: italic;color: #000000;">When Sales is changed to $25,000 at the month level, the system subtracts the locked quantity of $5,044 from $25,000, and distributes the remaining $19,956 across the </span><span style="font-style: italic;color: #000000;">3 </span><span style="font-style: italic;color: #000000;">unlocked periods </span><span style="font-style: italic;color: #000000;">by taking their percent contribution to the old Sales total, rebalancing them to equal 100%, then multiplying by $19,956</span>
+        </p>
+    </body>
+</html>

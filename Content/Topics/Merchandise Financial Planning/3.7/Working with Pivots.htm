@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1><a name="Piv"></a>Working With Pivots</h1>
+        <p>Pivots in the Hybrid Financial Planning Grid work similarly to pivots in Microsoft Excel. </p>
+        <p>You can use pivots to quickly aggregate, disaggregate, and rearrange the data displayed in a layout. This lets you edit plannable metrics at multiple levels of a plan.</p>
+        <h2>Example: Planning at Multiple Levels</h2>
+        <p>In the example below, the ProductLevelDescription and ChannelLevelDescription fields are being used as Row Area pivot fields. This lets you work on plans at either the brand/product level or channel level. Year, Month, and Week fields are being used as Column Area pivot fields, letting you set plan values at the year, month, or week levels.</p>
+        <ol>
+            <li>
+                <p>In the following screenshot, the "Great Value"  brand has been expanded to show the data rows for its individual channels (Outlet and Retail) as well as the aggregated grand totals for those channels. </p>
+                <p>With these rows exposed, you can enter sales values directly for each channel. The grand totals will then update automatically.</p>
+                <p>
+                    <img src="../../../Resources/Images/MFP 529/Essential Business Concepts_2.png" style="visibility: visible;width: 634px;height: 289px;">
+                    </img>
+                </p>
+            </li>
+            <li>
+                <p>Clicking on the arrow next to the "Great Value" field label collapses the channel rows. This lets you work at the brand level, which is the aggregate of the channel values. </p>
+                <p>
+                    <img src="../../../Resources/Images/MFP 529/Essential Business Concepts_3.png" style="visibility: visible;width: 634px;height: 197px;">
+                    </img>
+                </p>
+                <p>Any changes made to sales-related values at the brand level will be split proportionally among its channels.  The exact value attributed to each channel is based on the percent contribution that each channel's current value contributes toward the aggregate brand value. For example, assume the aggregate sales value planned for the Great Value brand is $1,000, with Retail contributing $800 and Outlet contributing $200. Changing the aggregate sales value to $2,000 would cause the Retail contribution to automatically change to $1,600 and the Outlet contribution to automatically change to $400. These changes are saved to the database automatically, even though the channels themselves are out of sight. </p>
+                <p>To verify the new sales values for each channel, just click the brand arrow again to expose the channel rows. </p>
+            </li>
+            <li>
+                <p>In a similar manner, you can expand and collapse Column Area pivot fields to work on aggregate or lower level field values. In this example,  the year value "2017" has been expanded to show its composite months, and the month "2017_m07" has been expanded to show (a) its composite weeks; and (b) the aggregate totals for the month (the "2017 m_07 Total" column).</p>
+                <p>
+                    <img src="../../../Resources/Images/MFP 529/Essential Business Concepts_4.png" style="visibility: visible;width: 634px;height: 237px;" />
+                </p>
+            </li>
+            <li>
+                <p>Instead of entering individual values at the week level, you can collapse month "2017_m07" to show only its aggregate values. Changing an aggregate monthly value causes the weekly values to change in proportion to their current contribution to the month (see the example in step 3 above). </p>
+                <p>
+                    <img src="../../../Resources/Images/MFP 529/Essential Business Concepts_5.png" style="visibility: visible;width: 634px;height: 196px;">
+                    </img>
+                </p>
+            </li>
+            <li>
+                <p>Instead of working at the week or month level, you can collapse the year "2017" to show only the aggregate value for the entire year. Changing an aggregate yearly value causes the monthly values to change in proportion to their percent contributions to the yearly total, and then each week's value to change in proportion to its percent contribution to the monthly total.</p>
+                <p>
+                    <img src="../../../Resources/Images/MFP 529/Essential Business Concepts_6.png" style="visibility: visible;width: 634px;height: 201px;">
+                    </img>
+                </p>
+            </li>
+        </ol>
+        <h2>Example: Rearranging Pivots</h2>
+        <p>You can drag-and-drop pivot fields to other areas in the layout. This lets you pivot data quickly to see your plan in different contexts. </p>
+        <p>In this example, we will drag the ProductLevelDescription field from the Row Area to the Column Area.</p>
+        <ol>
+            <li>
+                <p>In the Row Area, click on the ProductLevelDescription field and drag it to the Column Area, dropping it next to the Week field.</p>
+                <p>
+                    <img src="../../../Resources/Images/MFP 529/Essential Business Concepts_7.png" style="visibility: visible;width: 634px;height: 240px;">
+                    </img>
+                </p>
+            </li>
+            <li>
+                <p>Now, the weekly totals for each brand can be viewed side-by-side.</p>
+                <p>
+                    <img src="../../../Resources/Images/MFP 529/Essential Business Concepts_8.png" style="visibility: visible;width: 634px;height: 195px;">
+                    </img>
+                </p>
+            </li>
+            <li>
+                <p>In the Column Area, drag the Month field to the Row Area, dropping it to the right of the ChannelLevelDescription field. Then, do the same for the Week field. </p>
+                <p>
+                    <img src="../../../Resources/Images/MFP 529/Essential Business Concepts_9.png" style="visibility: visible;width: 634px;height: 393px;">
+                    </img>
+                </p>
+                <p>Now, you can view time "vertically" while still having all brands arranged side-by-side for easy comparisons.</p>
+            </li>
+        </ol>
+        <p>&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Resources/Global/PrintCover.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    conditions="General.Printed Manuals"
+    StartSection="false"
+    BreakType="chapter"
+    PageNumberReset="reset"
+    PageNumber="1"
+    PageLayout="/Content/Resources/PageLayouts/FrontMatter.flpgl"
+    PageType="title" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Resources/Global/copyright.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    conditions="General.Printed Manuals"
+    StartSection="false"
+    BreakType="pageLayout" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Resources/Global/Table of Contents.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    conditions="General.Printed Manuals"
+    StartSection="false"></TocEntry>
+  <TocEntry
+    Title="Merchandise Financial Planning Overview"
+    Link="/Content/Topics/Merchandise Financial Planning/Merchandise Financial Planning Overview.htm"
+    BreakType="pageLayout"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/Default.flpgl">
+    <TocEntry
+      Title="Technical Note on Customizations"
+      Link="/Content/Topics/Merchandise Financial Planning/Technical Note on Customizations.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/Merchandise Financial Planning/Financial Planning Configuration.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="Financial Planning User Rights"
+        Link="/Content/Topics/Users/Financial Planning.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        StartSection="false" />
+      <TocEntry
+        Title="Financial Planning System Policies"
+        Link="/Content/Topics/System Policies/Module - Financial Planning.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/Merchandise Financial Planning/VAT Configuration.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Plan Creation &amp; Management"
+      Link="/Content/Topics/Merchandise Financial Planning/Plan Creation Management.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/Merchandise Financial Planning/The Financial Plan Maintenance Window.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="Rebalance Functionality"
+          Link="/Content/Topics/Merchandise Financial Planning/Rebalance Functionality.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/Merchandise Financial Planning/Creating a Master Plan.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/Merchandise Financial Planning/Creating Branch Plans.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/Merchandise Financial Planning/Creating Snapshots.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Practical Application"
+        Link="/Content/Topics/Merchandise Financial Planning/Best Practices For Creating and Managing Plans.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Plan Approvals"
+      Link="/Content/Topics/Merchandise Financial Planning/Plan Approvals.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/Merchandise Financial Planning/Essential Business Concepts plan approvals.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="Header Area Controls"
+          Link="/Content/Topics/Merchandise Financial Planning/Plan Status Values.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/Merchandise Financial Planning/Main Planning View.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+      <TocEntry
+        Title="Parameters"
+        Link="/Content/Topics/Merchandise Financial Planning/Parameters.htm">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Topics/Merchandise Financial Planning/3.7/Total Company and Average Store Modes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/Merchandise Financial Planning/Adding, Removing, and Rearranging Fields.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/Merchandise Financial Planning/Changing Data Layouts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/Merchandise Financial Planning/Changing Multiple Cells At Once.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/Merchandise Financial Planning/Restoring Layouts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/Merchandise Financial Planning/Metric Details Hybrid Cost Retail Plan Types.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/Merchandise Financial Planning/Metric Details Hybrid Cost Dual Markdown Plan Type.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Practical Application"
+      Link="/Content/Topics/Merchandise Financial Planning/Practical Application_2.htm" />
+    <TocEntry
+      Title="Calculation Toggles"
+      Link="/Content/Topics/Merchandise Financial Planning/Calculation Toggles.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/Merchandise Financial Planning/Calc Toggle Details Hybrid Cost Retail Plan Types.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/Merchandise Financial Planning/Calc Toggle Details Hybrid Cost Dual Markdown Plan Type.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Lock &amp; Spread Related Toggles"
+        Link="/Content/Topics/Merchandise Financial Planning/Lock Spread Related Toggles.htm" />
+      <TocEntry
+        Title="Practical Application"
+        Link="/Content/Topics/Merchandise Financial Planning/Practical Application_3.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Lock &amp; Spread"
+      Link="/Content/Topics/Merchandise Financial Planning/Lock Spread.htm">
+      <TocEntry
+        Title="Lock Controls"
+        Link="/Content/Topics/Merchandise Financial Planning/Lock Controls.htm" />
+      <TocEntry
+        Title="Cell Lock Example"
+        Link="/Content/Topics/Merchandise Financial Planning/Low Level Locks.htm" />
+      <TocEntry
+        Title="Aggregate Lock Example"
+        Link="/Content/Topics/Merchandise Financial Planning/Aggregate Level Locks.htm" />
+      <TocEntry
+        Title="Locks at Multiple Intersecting Levels"
+        Link="/Content/Topics/Merchandise Financial Planning/Locks at Multiple Intersecting Levels.htm" />
+      <TocEntry
+        Title="Lock &amp; Spread in Comp/Non-Comp and Sales By Type Views"
+        Link="/Content/Topics/Merchandise Financial Planning/Lock Spread in Comp Non Comp and Sales By Type Views.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Topics/Merchandise Financial Planning/3.7/Auto Lock on Cell Change.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Practical Example"
+        Link="/Content/Topics/Merchandise Financial Planning/Lock &amp; Spread Practical Example.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Comp/Non-Comp Planning View"
+      Link="/Content/Topics/Merchandise Financial Planning/Comp Non Comp Planning View.htm">
+      <TocEntry
+        Title="Essential Business Concepts"
+        Link="/Content/Topics/Merchandise Financial Planning/Essential Business Concepts_5.htm">
+        <TocEntry
+          Title="Metric Details"
+          Link="/Content/Topics/Merchandise Financial Planning/Metric Details.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Sales By Type Planning View"
+      Link="/Content/Topics/Merchandise Financial Planning/Sales By Type Planning View.htm">
+      <TocEntry
+        Title="Essential Business Concepts"
+        Link="/Content/Topics/Merchandise Financial Planning/Essential Business Concepts_6.htm">
+        <TocEntry
+          Title="Metric Details"
+          Link="/Content/Topics/Merchandise Financial Planning/Metric Details_1.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Glossary"
+      Link="/Content/Topics/Merchandise Financial Planning/Key Terms.htm"></TocEntry>
+  </TocEntry>
+</CatapultToc>
